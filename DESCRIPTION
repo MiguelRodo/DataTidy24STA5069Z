@@ -1,0 +1,13 @@
+Package: DataTidy24STA5069Z
+Title: Tidy data for analysis for STA5069Z course
+Version: 0.0.0-1
+Authors@R: 
+    person("Miguel", "Rodo", , "miguel.rodo@uct.ac.za", role = c("aut", "cre"))
+Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
+Description: Tidy data for analysis for STA5069Z course
+License: {{ License }}
+URL: https://github.com/MiguelRodo/DataTidy24STA5069Z/#readme
+BugReports: https://github.com/MiguelRodo/DataTidy24STA5069Z/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
