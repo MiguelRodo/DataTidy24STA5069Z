@@ -1,0 +1,31 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.5.0
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "DataTidy24STA5069Z" in publications use:'
+type: software
+title: 'DataTidy24STA5069Z: Tidy data for analysis for STA5069Z course'
+version: 0.0.0-1
+abstract: Tidy data for analysis for STA5069Z course
+authors:
+- family-names: Rodo
+  given-names: Miguel
+  email: miguel.rodo@uct.ac.za
+preferred-citation:
+  type: generic
+  title: 'DataTidy24STA5069Z: Tidy data for analysis for STA5069Z course'
+  authors:
+  - family-names: Rodo
+    given-names: Miguel
+    email: miguel.rodo@uct.ac.za
+  url: https://github.com/MiguelRodo/DataTidy24STA5069Z/#readme
+  abstract: Tidy data for analysis for STA5069Z course
+  version: 0.0.0-1
+repository-code: https://github.com/MiguelRodo/DataTidy24STA5069Z
+url: https://github.com/MiguelRodo/DataTidy24STA5069Z/#readme
+contact:
+- family-names: Rodo
+  given-names: Miguel
+  email: miguel.rodo@uct.ac.za

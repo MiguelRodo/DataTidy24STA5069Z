@@ -1,0 +1,52 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "DataTidy24STA5069Z",
+  "description": "Tidy data for analysis for STA5069Z course",
+  "name": "DataTidy24STA5069Z: Tidy data for analysis for STA5069Z course",
+  "relatedLink": "https://github.com/MiguelRodo/DataTidy24STA5069Z/#readme",
+  "codeRepository": "https://github.com/MiguelRodo/DataTidy24STA5069Z",
+  "issueTracker": "https://github.com/MiguelRodo/DataTidy24STA5069Z/issues",
+  "license": "{{ License }}",
+  "version": "0.0.0.1",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.3.2 (2023-10-31)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Miguel",
+      "familyName": "Rodo",
+      "email": "miguel.rodo@uct.ac.za"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Miguel",
+      "familyName": "Rodo",
+      "email": "miguel.rodo@uct.ac.za"
+    }
+  ],
+  "softwareRequirements": {
+    "SystemRequirements": null
+  },
+  "fileSize": "2.357KB",
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": "Miguel",
+          "familyName": "Rodo"
+        }
+      ],
+      "name": "DataTidy24STA5069Z: Tidy data for analysis for STA5069Z course",
+      "url": "https://github.com/MiguelRodo/DataTidy24STA5069Z/#readme"
+    }
+  ]
+}

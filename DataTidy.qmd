@@ -1,0 +1,9 @@
+---
+title: Tidy data for analysis for STA5069Z course
+format:
+  html:
+    embed-resources: true
+---
+
+# Introduction
+
