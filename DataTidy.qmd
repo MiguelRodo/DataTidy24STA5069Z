@@ -7,3 +7,32 @@ format:
 
 # Introduction
 
+```{r}
+#| include: false
+library(tibble)
+```
+
+
+## MDS
+
+### Morse code data
+
+```{r}
+data_raw_morse <- readr::read_csv(
+  projr::projr_path_get("data-raw", "morse.code.csv")
+)
+data_tidy_morse <- data_raw_morse
+projr::projr_use_data(data_tidy_morse, overwrite = TRUE)
+```
+
+### SA distance data
+
+```{r}
+data_raw_sa_distance <- openxlsx::read.xlsx(
+  projr::projr_path_get("data-raw", "SAdistances.xlsx"),
+  sheet = 2
+) |>
+  tibble::as_tibble()
+data_raw_sa_distance <- data_raw_sa_distance
+projr::projr_use_data(data_raw_sa_distance, overwrite = TRUE)
+```
