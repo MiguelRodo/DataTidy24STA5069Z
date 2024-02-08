@@ -11,5 +11,6 @@ _data_raw/**
 _tmp/**
 _output/**
 docs/**
+inst/extdata/**
 # End of projr section
 

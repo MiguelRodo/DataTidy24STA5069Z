@@ -14,5 +14,7 @@
 ^_output$
 ^docs/
 ^docs$
+^inst/extdata/
+^inst/extdata$
 # End of projr section
 

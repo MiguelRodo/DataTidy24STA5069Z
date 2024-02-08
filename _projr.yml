@@ -1,6 +1,7 @@
 directories:
   data-raw:
-    path: _data_raw
+    path: inst/extdata
+    ignore: no
   cache:
     path: _tmp
   output:
@@ -8,16 +9,5 @@ directories:
   docs:
     path: docs
 build:
-  github:
-    '@version':
-      content: code
-      description: Latest source code
-    input:
-      content: data-raw
-      description: Project inputs
-    output:
-      content:
-      - output
-      - docs
-      description: Project outputs
+  git: yes
 
