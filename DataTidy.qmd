@@ -33,6 +33,6 @@ data_raw_sa_distance <- openxlsx::read.xlsx(
   sheet = 2
 ) |>
   tibble::as_tibble()
-data_raw_sa_distance <- data_raw_sa_distance
-projr::projr_use_data(data_raw_sa_distance, overwrite = TRUE)
+data_tidy_sa_distance <- data_raw_sa_distance
+projr::projr_use_data(data_tidy_sa_distance, overwrite = TRUE)
 ```
