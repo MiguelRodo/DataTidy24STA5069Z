@@ -34,5 +34,6 @@ data_raw_sa_distance <- openxlsx::read.xlsx(
 ) |>
   tibble::as_tibble()
 data_tidy_sa_distance <- data_raw_sa_distance
+colnames(data_tidy_sa_distance)[which(colnames(data_tidy_sa_distance) == "CapeTOwn")] <- "CapeTown"
 projr::projr_use_data(data_tidy_sa_distance, overwrite = TRUE)
 ```
