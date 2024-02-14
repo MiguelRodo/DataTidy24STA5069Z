@@ -1,5 +1,8 @@
 # CHANGELOG
 
+- *Minor* (v0.2.0): Miguel Julio Rodo (12:33:14)
+  - Add clustering datasets
+
 - Patch (v0.1.3): Miguel Julio Rodo (10:56:30)
   - Correct Cape Town's column name
 - Patch (v0.1.2): Miguel Julio Rodo (10:53:08)
