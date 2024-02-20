@@ -1,5 +1,8 @@
 # CHANGELOG
 
+- *Minor* (v0.3.0): Miguel Julio Rodo (12:20:12)
+  - Add honours multivaraiate datasets
+
 - *Minor* (v0.2.0): Miguel Julio Rodo (12:33:14)
   - Add clustering datasets
 

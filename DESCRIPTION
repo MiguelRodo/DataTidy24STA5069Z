@@ -1,6 +1,6 @@
 Package: DataTidy24STA5069Z
 Title: Tidy data for analysis for STA5069Z course
-Version: 0.2.0-1
+Version: 0.3.0
 Authors@R: person("Miguel", "Rodo", , "miguel.rodo@uct.ac.za", role = c("aut", "cre"))
 Maintainer: Miguel Rodo <miguel.rodo@uct.ac.za>
 Description: Tidy data for analysis for STA5069Z course
