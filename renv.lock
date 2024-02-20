@@ -128,6 +128,29 @@
       ],
       "Hash": "435359b59b8a9b8f9235135da471ea3c"
     },
+    "VaccCompData": {
+      "Package": "VaccCompData",
+      "Version": "0.1.0",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "VaccCompData",
+      "RemoteUsername": "MiguelRodo",
+      "RemotePkgRef": "MiguelRodo/VaccCompData",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "021d25021849322bf092a2fa78c83d27770dcfb2",
+      "Requirements": [
+        "dplyr",
+        "magrittr",
+        "openxlsx",
+        "plyr",
+        "pryr",
+        "stringr",
+        "tibble",
+        "tidyr"
+      ],
+      "Hash": "3fe58b254b8cb11c0ce9992a6c888996"
+    },
     "askpass": {
       "Package": "askpass",
       "Version": "1.2.0",
@@ -253,6 +276,16 @@
         "utils"
       ],
       "Hash": "81048af0d716143bb5dc44d076279538"
+    },
+    "codetools": {
+      "Package": "codetools",
+      "Version": "0.2-19",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "c089a619a7fae175d149d89164f8c7d8"
     },
     "colorspace": {
       "Package": "colorspace",
@@ -629,6 +662,21 @@
       ],
       "Hash": "b8552d117e1b808b09a832f589b79035"
     },
+    "lobstr": {
+      "Package": "lobstr",
+      "Version": "1.1.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "cpp11",
+        "crayon",
+        "methods",
+        "prettyunits",
+        "rlang"
+      ],
+      "Hash": "f2a94f8fc9db382a642e965339635ad6"
+    },
     "magrittr": {
       "Package": "magrittr",
       "Version": "2.0.3",
@@ -768,6 +816,17 @@
       ],
       "Hash": "01f28d4278f15c76cddbea05899c5d6f"
     },
+    "plyr": {
+      "Package": "plyr",
+      "Version": "1.8.9",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "Rcpp"
+      ],
+      "Hash": "6b8177fd19982f0020743fadbfdbd933"
+    },
     "prettyunits": {
       "Package": "prettyunits",
       "Version": "1.2.0",
@@ -825,6 +884,21 @@
         "yaml"
       ],
       "Hash": "e33dbb35d43bab2cf76702d6a6b29bc8"
+    },
+    "pryr": {
+      "Package": "pryr",
+      "Version": "0.1.6",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "Rcpp",
+        "codetools",
+        "lobstr",
+        "methods",
+        "stringr"
+      ],
+      "Hash": "cfcbe960eca81ceca61df5fa622693de"
     },
     "ps": {
       "Package": "ps",
@@ -901,6 +975,20 @@
         "vroom"
       ],
       "Hash": "9de96463d2117f6ac49980577939dfb3"
+    },
+    "remotes": {
+      "Package": "remotes",
+      "Version": "2.4.2.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "R",
+        "methods",
+        "stats",
+        "tools",
+        "utils"
+      ],
+      "Hash": "63d15047eb239f95160112bcadc4fcb9"
     },
     "renv": {
       "Package": "renv",

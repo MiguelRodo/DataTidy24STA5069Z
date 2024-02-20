@@ -276,6 +276,9 @@ projr::projr_use_data(meta_data_tbl, overwrite = TRUE)
 #| results: hide
 #| message: false
 #| warning: false
+if (!requireNamespace("VaccCompData", quietly = TRUE)) {
+  remotes::install_github("MiguelRodo/VaccCompData")
+}
 data("tmaxSub17ExcTbl", package = "VaccCompData")
 data("bl17ExcTbl", package = "VaccCompData")
 
