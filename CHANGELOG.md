@@ -1,5 +1,7 @@
 # CHANGELOG
 
+- Patch (v0.3.1): Miguel Julio Rodo (12:21:15)
+  - Add VaccCompData dependency
 - *Minor* (v0.3.0): Miguel Julio Rodo (12:20:12)
   - Add honours multivaraiate datasets
 
