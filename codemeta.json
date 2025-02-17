@@ -4,17 +4,16 @@
   "identifier": "DataTidy24STA5069Z",
   "description": "Tidy data for analysis for STA5069Z course",
   "name": "DataTidy24STA5069Z: Tidy data for analysis for STA5069Z course",
-  "relatedLink": "https://github.com/MiguelRodo/DataTidy24STA5069Z/#readme",
-  "codeRepository": "https://github.com/MiguelRodo/DataTidy24STA5069Z",
+  "codeRepository": "https://github.com/MiguelRodo/DataTidy24STA5069Z/",
   "issueTracker": "https://github.com/MiguelRodo/DataTidy24STA5069Z/issues",
   "license": "{{ License }}",
-  "version": "0.0.0.1",
+  "version": "0.4.0",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.3.2 (2023-10-31)",
+  "runtimePlatform": "R version 4.4.1 (2024-06-14)",
   "author": [
     {
       "@type": "Person",
@@ -32,9 +31,15 @@
     }
   ],
   "softwareRequirements": {
+    "1": {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": ">= 2.10"
+    },
     "SystemRequirements": null
   },
-  "fileSize": "2.357KB",
+  "fileSize": "155.743KB",
   "citation": [
     {
       "@type": "CreativeWork",

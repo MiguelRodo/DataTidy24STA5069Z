@@ -1,5 +1,8 @@
 # CHANGELOG
 
+- *Minor* (v0.4.0): Miguel Rodo (2025-02-17 13:01:31)
+  - Add exam data from 2024
+
 - Patch (v0.3.1): Miguel Julio Rodo (12:21:15)
   - Add VaccCompData dependency
 - *Minor* (v0.3.0): Miguel Julio Rodo (12:20:12)
