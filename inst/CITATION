@@ -8,4 +8,4 @@ bibentry(bibtype = "Misc",
                          email = "miguel.rodo@uct.ac.za"),
          url = "https://github.com/MiguelRodo/DataTidy24STA5069Z/#readme",
          abstract = "Tidy data for analysis for STA5069Z course",
-         version = "0.4.0")
+         version = "0.4.1")
