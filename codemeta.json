@@ -7,7 +7,7 @@
   "codeRepository": "https://github.com/MiguelRodo/DataTidy24STA5069Z/",
   "issueTracker": "https://github.com/MiguelRodo/DataTidy24STA5069Z/issues",
   "license": "{{ License }}",
-  "version": "0.4.1",
+  "version": "0.4.3",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
@@ -39,7 +39,7 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "155.799KB",
+  "fileSize": "3096.248KB",
   "citation": [
     {
       "@type": "CreativeWork",

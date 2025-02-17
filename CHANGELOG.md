@@ -1,5 +1,7 @@
 # CHANGELOG
 
+- Patch (v0.4.3): Miguel Rodo (2025-02-17 13:08:41)
+  - Build without ignoring output-inst
 - Patch (v0.4.1): Miguel Rodo (2025-02-17 13:03:37)
   - Create GitHub destinations
 - *Minor* (v0.4.0): Miguel Rodo (2025-02-17 13:01:31)
