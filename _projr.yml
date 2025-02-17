@@ -11,4 +11,17 @@ directories:
     path: docs
 build:
   git: yes
+  github:
+    latest:
+      content:
+      - raw-data
+      - output
+      - output-inst
+      - docs
+    archive:
+      content:
+      - raw-data
+      - output
+      - output-inst
+      structure: archive
 
