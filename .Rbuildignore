@@ -12,8 +12,6 @@
 ^_tmp$
 ^_output/
 ^_output$
-^inst/extdata/
-^inst/extdata$
 ^docs/
 ^docs$
 ^_projr\.yml$

@@ -13,7 +13,6 @@ SCRATCH.R
 _raw_data/**
 _tmp/**
 _output/**
-inst/extdata/**
 docs/**
 Rplots.pdf
 DataTidy_files/**

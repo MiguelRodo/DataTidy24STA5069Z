@@ -7,6 +7,7 @@ directories:
     path: _output
   output-inst:
     path: inst/extdata
+    ignore: no
   docs:
     path: docs
 build:
