@@ -19,7 +19,7 @@ library(tibble)
 
 ```{r}
 data_raw_morse <- readr::read_csv(
-  projr::projr_path_get("data-raw", "morse.code.csv")
+  projr::projr_path_get("raw-data", "morse.code.csv")
 )
 data_tidy_morse <- data_raw_morse
 projr::projr_use_data(data_tidy_morse, overwrite = TRUE)
@@ -29,7 +29,7 @@ projr::projr_use_data(data_tidy_morse, overwrite = TRUE)
 
 ```{r}
 data_raw_sa_distance <- openxlsx::read.xlsx(
-  projr::projr_path_get("data-raw", "SAdistances.xlsx"),
+  projr::projr_path_get("raw-data", "SAdistances.xlsx"),
   sheet = 2
 ) |>
   tibble::as_tibble()
@@ -44,7 +44,7 @@ projr::projr_use_data(data_tidy_sa_distance, overwrite = TRUE)
 
 ```{r}
 data_raw_food <- readr::read_table(
-  projr::projr_path_get("data-raw", "food.txt")
+  projr::projr_path_get("raw-data", "food.txt")
 )
 data_tidy_food <- data_raw_food
 ugly_to_display_vec <- ugly_to_display_vec <- c(
@@ -71,7 +71,7 @@ projr::projr_use_data(data_tidy_food, overwrite = TRUE)
 
 ```{r}
 data_raw_example_12_3_4 <- readr::read_csv(
-  projr::projr_path_get("data-raw", "Ex12.3.4.csv")
+  projr::projr_path_get("raw-data", "Ex12.3.4.csv")
 )
 data_tidy_example_12_3_4 <- data_raw_example_12_3_4
 projr::projr_use_data(data_tidy_example_12_3_4, overwrite = TRUE)
@@ -81,7 +81,7 @@ projr::projr_use_data(data_tidy_example_12_3_4, overwrite = TRUE)
 
 ```{r}
 data_raw_primate <- readr::read_csv(
-  projr::projr_path_get("data-raw", "primate.scapulae.csv")
+  projr::projr_path_get("raw-data", "primate.scapulae.csv")
 )
 data_tidy_primate <- data_raw_primate |>
   dplyr::rename(
@@ -104,7 +104,7 @@ projr::projr_use_data(data_tidy_primate, overwrite = TRUE)
 
 ```{r}
 data_raw_satellite <- readr::read_table(
-  projr::projr_path_get("data-raw", "satimage.txt")
+  projr::projr_path_get("raw-data", "satimage.txt")
 )
 data_tidy_satellite <- data_raw_satellite
 colnames(data_tidy_satellite) <- gsub("\"", "", colnames(data_tidy_satellite))
@@ -115,7 +115,7 @@ projr::projr_use_data(data_tidy_satellite, overwrite = TRUE)
 
 ```{r}
 data_raw_t11_5 <- readr::read_table(
-  projr::projr_path_get("data-raw", "T11-5.DAT"),
+  projr::projr_path_get("raw-data", "T11-5.DAT"),
   col_names = FALSE
 )
 data_tidy_t11_5 <- data_raw_t11_5
@@ -201,7 +201,7 @@ projr::projr_use_data(data_tidy_profit, overwrite = TRUE)
 #| message: false
 #| warning: false
 lum_tbl <- openxlsx::read.xlsx(
-  projr::projr_path_get("data-raw", "age_inflammation_data.xlsx"),
+  projr::projr_path_get("raw-data", "age_inflammation_data.xlsx"),
   sheet = "luminex"
 ) |>
   tibble::as_tibble()
@@ -250,7 +250,7 @@ lum_tbl <- lum_tbl |>
     values_from = "response"
   )
 meta_data_tbl <- openxlsx::read.xlsx(
-  projr::projr_path_get("data-raw", "age_inflammation_data.xlsx"),
+  projr::projr_path_get("raw-data", "age_inflammation_data.xlsx"),
   sheet = "metadata"
 ) |>
   tibble::as_tibble()

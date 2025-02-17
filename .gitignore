@@ -7,11 +7,18 @@ _projr-local.yml
 _environment.local
 SCRATCH.R
 
-# Start of projr section: do not edit by hand (until `# End of projr section`)
-_data_raw/**
+
+
+# Start of projr section: do not edit by hand (update with projr_ignore_auto())
+_raw_data/**
 _tmp/**
 _output/**
-docs/**
 inst/extdata/**
+docs/**
+Rplots.pdf
+DataTidy_files/**
+DataTidy.html/**
+DataTidyExam2024_files/**
+DataTidyExam2024.html/**
 # End of projr section
 

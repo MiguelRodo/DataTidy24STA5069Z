@@ -5,16 +5,32 @@
 ^_projr-local\.yml$
 
 ^CITATION\.cff$
-# Start of projr section: do not edit by hand (until `# End of projr section`)
-^_data_raw/
-^_data_raw$
+# Start of projr section: do not edit by hand (update with projr_ignore_auto())
+^_raw_data/
+^_raw_data$
 ^_tmp/
 ^_tmp$
 ^_output/
 ^_output$
-^docs/
-^docs$
 ^inst/extdata/
 ^inst/extdata$
+^docs/
+^docs$
+^_projr\.yml$
+^DataTidy\.qmd$
+^DataTidyExam2024\.qmd$
+^_dependencies\.R$
+^CHANGELOG\.md$
+^codemeta\.json$
+^manifest\.csv$
+^Rplots\.pdf$
+^DataTidy_files/
+^DataTidy_files$
+^DataTidy\.html/
+^DataTidy\.html$
+^DataTidyExam2024_files/
+^DataTidyExam2024_files$
+^DataTidyExam2024\.html/
+^DataTidyExam2024\.html$
 # End of projr section
 
