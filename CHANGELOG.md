@@ -1,5 +1,7 @@
 # CHANGELOG
 
+- Patch (v0.4.4): Miguel Rodo (2025-02-20 08:31:36)
+  - Add data_tidy_cell_lineage as a data export
 - Patch (v0.4.3): Miguel Rodo (2025-02-17 13:08:41)
   - Build without ignoring output-inst
 - Patch (v0.4.1): Miguel Rodo (2025-02-17 13:03:37)
