@@ -185,6 +185,7 @@ readr::write_csv(
   data_tidy_cell_lineage,
   path_data_save
 )
+projr::projr_use_data(data_tidy_cell_lineage, overwrite = TRUE)
 ```
 
 Plot:
